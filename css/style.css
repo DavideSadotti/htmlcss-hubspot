@@ -50,6 +50,15 @@ body{
   padding: 10px !important;
 }
 
+.btn-orange-big{
+  background-color: #ff7a59;
+  color: white;
+  border-radius: 5px;
+  padding: 20px 40px;
+  width: fit-content;
+  display: block !important;
+}
+
 header li{
   display: inline-block;
 }
@@ -72,4 +81,56 @@ header li{
 
 .header-top li{
   padding: 0 10px;
+}
+
+/* HEADER NAVBAR */
+.header-navbar{
+  height: 80px;
+  font-weight: 500;
+}
+
+.header-navbar .float-sx{
+  margin: 23px 0;
+}
+
+.header-navbar .float-dx{
+  margin: 30.5px 0;
+}
+
+.header-navbar .float-dx li{
+  margin-left: 20px;
+}
+
+/* HEADER-JUMBOTRON */
+.header-jumbotron{
+  background-color: #fef5ef;
+  height: 690px;
+  background-image: url("../img/jumbotron.png");
+  background-repeat: no-repeat;
+  background-size: 1615px;
+  background-position: 100% 0%;
+}
+
+.banner-hero{
+  width: 50%;
+  line-height: 28px;
+}
+
+.banner-hero h1{
+  font-size: 50px;
+  margin: 70px 0 30px;
+  line-height: 60px;
+  display: inline-block;
+}
+
+.banner-hero .btn-orange-big{
+  margin: 30px 0;
+}
+
+/* FASCIA BLU */
+.blu-line{
+  height: 80px;
+  background-color: #afebe4;
+  border-top: 3px solid #33475b;
+  border-bottom: 3px solid #33475b;
 }
