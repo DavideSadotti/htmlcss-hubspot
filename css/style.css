@@ -67,10 +67,26 @@ body{
   display: block !important;
 }
 
+.btn-gray{
+  color: #32495b;
+  background-color: #dadee0;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 5px 10px;
+}
+
 .plus::after{
   content: "+";
   display: inline-block;
   font-weight: 400;
+}
+
+.pipeline::after{
+  content: "";
+  display: block;
+  border-top: 1px solid #7c98b6;
+  width: 100%;
+  margin-top: 10px;
 }
 
 
@@ -381,8 +397,8 @@ header li{
 }
 
 .growing-hubspot img{
-  width: 50%;
-  margin: auto;
+  width: 300px;
+  margin-left: 35%;
   display: block;
 }
 
@@ -398,4 +414,63 @@ header li{
 /* FOOTER */
 footer{
   background-color: #32495b;
+  color: #dadee0;
+}
+
+footer h4{
+  color: white;
+  margin-bottom: 10px;
+}
+
+footer li{
+  list-style: none;
+}
+
+/* QUATTRO COLONNE */
+.four-col{
+  padding: 30px 0
+}
+
+.four-col .float-sx{
+  width: 25%;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.four-col p{
+  margin: 15px 0;
+}
+.four-col a{
+  text-decoration: none;
+  color: #dadee0;
+  margin-right: 20px;
+}
+
+.four-col i{
+  font-size: 14px;
+}
+
+/* LINGUE E PRIVACY POLICY */
+.language-and-privacy ul{
+  text-align: center;
+}
+
+.language-and-privacy li{
+  display: inline-block;
+  margin: 10px 10px;
+  font-size: 12px;
+}
+
+.language-and-privacy .float-sx, .language-and-privacy .float-dx{
+  margin: 35px 0;
+}
+
+.language-and-privacy img{
+  display: block;
+}
+
+.language-and-privacy .float-dx p{
+  display: inline-block;
+  font-size: 12px;
+  margin-left: 20px;
 }
