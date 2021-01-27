@@ -380,6 +380,7 @@ header li{
 /* SEZIONE CRESCI CON NOI */
 .growing-hubspot{
   background-color: white;
+  height: 400px;
 }
 
 .growing-hubspot .float-sx, .growing-hubspot .float-dx{
