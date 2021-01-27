@@ -341,7 +341,7 @@ header li{
 
 .affiliate .float-sx{
   width: 40%;
-  padding: 0 15% 0 5%;
+  padding: 0 10%;
   line-height: 25px;
 }
 
@@ -352,10 +352,50 @@ header li{
 
 .affiliate .float-dx{
   width: 60%;
+  padding-right: 10%;
 }
 
 .affiliate .float-dx img{
   width: 25% ;
   padding: 15px;
   vertical-align: middle;
+}
+
+/* SEZIONE CRESCI CON NOI */
+.growing-hubspot{
+  background-color: white;
+}
+
+.growing-hubspot .float-sx, .growing-hubspot .float-dx{
+  width: 50%;
+}
+
+.growing-hubspot .float-sx{
+  line-height: 25px;
+  margin: 30px 0;
+  padding-right: 10%;
+}
+
+.growing-hubspot .float-sx *{
+  margin: 20px 0;
+}
+
+.growing-hubspot img{
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+
+.growing-hubspot h3{
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.growing-hubspot h6{
+  font-weight: 500;
+}
+
+/* FOOTER */
+footer{
+  background-color: #32495b;
 }
